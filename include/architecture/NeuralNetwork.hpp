@@ -1,5 +1,7 @@
 #pragma once
 
+#include "ActivationType.hpp"
+
 #include <vector>
 #include <memory>
 
@@ -18,7 +20,7 @@ class NeuralNetwork {
         std::vector<std::shared_ptr<Neuron>> outputLayer;
         NeuralNetwork(int num_inputs, int num_layers, int num_neurons_per_layer, int num_outputs);
 
-        void initialize_layer(int size, int type);
+        void initialize_layer(int size, ActivationType type);
 
         void initialize_synapses();
 

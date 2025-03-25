@@ -39,7 +39,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 33,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -264,6 +264,10 @@
 				{
 					"backtrace" : 4,
 					"path" : "/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums"
 				},
 				{
 					"backtrace" : 4,

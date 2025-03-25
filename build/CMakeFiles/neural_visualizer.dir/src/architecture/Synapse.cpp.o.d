@@ -516,6 +516,7 @@ CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdexcept \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/fill_n.h \

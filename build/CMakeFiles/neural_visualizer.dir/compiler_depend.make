@@ -961,6 +961,7 @@ CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o: /Users/ni
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/generateRandomNumber.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.hpp
 
@@ -1869,6 +1870,7 @@ CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o: /Users/nicholasr
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/generateId.hpp
 
 CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Synapse.cpp \
@@ -2775,7 +2777,8 @@ CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o: /Users/nicholas
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp
 
 CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/MainWindow.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/Availability.h \
@@ -3761,8 +3764,8 @@ CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o: /Users/nicholasraynes
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-autocleanups.h \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-enum-types.h \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk.h \
@@ -5633,6 +5636,7 @@ CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: /Users/nicholasrayn
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-autocleanups.h \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-enum-types.h \
@@ -7448,11 +7452,11 @@ CMakeFiles/neural_visualizer.dir/src/main.cpp.o: /Users/nicholasraynes/Projects/
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/readCSV.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/readCSV.hpp \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-autocleanups.h \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-enum-types.h \
   /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk.h \
@@ -12137,13 +12141,9 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 
 /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/generateRandomNumber.cpp:
 
-/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h:
 
 /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/main.cpp:
-
-/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp:
 
 /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/NeuralCanvas.cpp:
 
@@ -12380,8 +12380,6 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 /opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk/gtkversion.h:
 
 /opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk/gtktypebuiltins.h:
-
-/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/readCSV.h:
 
 /opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk/gtktreeviewcolumn.h:
 
@@ -12714,10 +12712,6 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/log2.h:
 
 /opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gdk/gdkproperty.h:
-
-/opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk/gtkenums.h:
-
-/opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gdk/gdkpixbuf.h:
 
 /opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gdk/gdkmonitor.h:
 
@@ -13335,6 +13329,8 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 
 /opt/homebrew/Cellar/cairomm@1.14/1.14.5/include/cairomm-1.0/cairomm/context.h:
 
+/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.hpp:
+
 /opt/homebrew/Cellar/cairo/1.18.4/include/cairo/cairo-version.h:
 
 /opt/homebrew/Cellar/cairo/1.18.4/include/cairo/cairo-ft.h:
@@ -13433,11 +13429,9 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 
 /opt/homebrew/Cellar/at-spi2-core/2.56.0/include/atk-1.0/atk/atk-autocleanups.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/xlocale.h:
+/opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk/gtkenums.h:
 
-/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.h:
-
-/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.h:
+/opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gdk/gdkpixbuf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
@@ -14017,8 +14011,6 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/unreachable.h:
 
-/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /opt/homebrew/Cellar/pangomm@2.46/2.46.4/include/pangomm-1.4/pangomm/context.h:
@@ -14569,6 +14561,8 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 
 /opt/homebrew/Cellar/gtk+3/3.24.43/include/gtk-3.0/gtk/deprecated/gtkstyle.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/xlocale.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
@@ -14746,6 +14740,8 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
+
+/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/empty.h:
 
@@ -15606,6 +15602,8 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/
 /opt/homebrew/Cellar/glibmm@2.66/2.66.8/include/glibmm-2.4/glibmm/containerhandle_shared.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_offsetof.h:
+
+/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/promote.h:
 

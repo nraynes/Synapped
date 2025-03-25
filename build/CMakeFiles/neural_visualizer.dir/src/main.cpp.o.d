@@ -1,6 +1,7 @@
 CMakeFiles/neural_visualizer.dir/src/main.cpp.o: \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/main.cpp \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \

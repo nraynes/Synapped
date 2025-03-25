@@ -3,17 +3,18 @@
 #include "Synapse.hpp"
 #include "log.hpp"
 #include "generateRandomNumber.hpp"
+#include "ActivationType.hpp"
 
 #include <iostream>
 #include <vector>
 #include <memory>
 
 NeuralNetwork::NeuralNetwork(int num_inputs, int num_layers, int num_neurons_per_layer, int num_outputs) {
-    this->initialize_layer(num_inputs, 2);
+    this->initialize_layer(num_inputs, ActivationType::RELU);
     for (int i=0; i < num_layers; i++) {
-        this->initialize_layer(num_neurons_per_layer, 2);
+        this->initialize_layer(num_neurons_per_layer, ActivationType::RELU);
     }
-    this->initialize_layer(num_outputs, 3);
+    this->initialize_layer(num_outputs, ActivationType::NONE);
     this->initialize_synapses();
     this->inputLayer = this->layers[0];
     this->outputLayer = this->layers[this->layers.size()-1];
@@ -26,7 +27,7 @@ NeuralNetwork::NeuralNetwork(int num_inputs, int num_layers, int num_neurons_per
     }
 }
 
-void NeuralNetwork::initialize_layer(int size, int type) {
+void NeuralNetwork::initialize_layer(int size, ActivationType type) {
     std::vector<std::shared_ptr<Neuron>> layer;
     for (int i=0; i < size; i++) {
         std::shared_ptr<Neuron> new_neuron = std::make_shared<Neuron>(Neuron(type));
