@@ -13,7 +13,7 @@ int main() {
 
     std::unique_ptr<NeuralNetwork> nn(new NeuralNetwork(7, 1, 10, 1));
     
-    std::string file = "./sample_data.csv";
+    std::string file = "../Resources/sample_data.csv";
     int dataSplitPoint = 7;
 
     std::vector<std::array<std::vector<double>, 2>> data = readCSV(file, dataSplitPoint);
