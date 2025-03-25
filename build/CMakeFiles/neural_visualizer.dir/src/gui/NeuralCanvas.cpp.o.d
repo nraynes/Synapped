@@ -1814,5 +1814,6 @@ CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: \
   /opt/homebrew/Cellar/gtkmm3/3.24.9/include/gtkmm-3.0/gtkmm/widgetpath.h \
   /opt/homebrew/Cellar/glibmm@2.66/2.66.8/include/giomm-2.4/giomm/actiongroup.h \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/enums/ActivationType.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Activation.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp

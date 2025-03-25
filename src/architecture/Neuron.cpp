@@ -1,7 +1,7 @@
 #include "Neuron.hpp"
 #include "Synapse.hpp"
 #include "generateId.hpp"
-#include "ActivationType.hpp"
+#include "Activation.hpp"
 
 #include <vector>
 
@@ -50,42 +50,11 @@ void Neuron::calculateWeightedSum() {
 }
 
 double Neuron::activate(double x) {
-    switch (this->type) {
-        case ActivationType::SIGMOID:
-            return this->sigmoid(x);
-        case ActivationType::RELU:
-            return this->reLU(x);
-        default:
-            return x;
-    }
+    return Activation::activate(this->type, x);
 }
 
 double Neuron::dx_activate(double x) {
-    switch (this->type) {
-        case ActivationType::SIGMOID:
-            return this->dx_sigmoid(x);
-        case ActivationType::RELU:
-            return this->dx_reLU(x);
-        default:
-            return 1;
-    }
-}
-
-double Neuron::sigmoid(double x) {
-    return 1 / (1 + std::exp(-x));
-}
-
-double Neuron::dx_sigmoid(double x) {
-    double y = this->sigmoid(x);
-    return y * (1 - y);
-}
-
-double Neuron::reLU(double x) {
-    return std::max(0.0, x);
-}
-
-double Neuron::dx_reLU(double x) {
-    return x > 0 ? 1.0 : 0.0;
+    return Activation::dx_activate(this->type, x);
 }
 
 void Neuron::backward(double gradient) {

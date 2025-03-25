@@ -3,7 +3,7 @@
 #include "Synapse.hpp"
 #include "log.hpp"
 #include "generateRandomNumber.hpp"
-#include "ActivationType.hpp"
+#include "Activation.hpp"
 
 #include <iostream>
 #include <vector>

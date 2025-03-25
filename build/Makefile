@@ -129,6 +129,30 @@ neural_visualizer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_visualizer.dir/build.make CMakeFiles/neural_visualizer.dir/build
 .PHONY : neural_visualizer/fast
 
+src/architecture/Activation.o: src/architecture/Activation.cpp.o
+.PHONY : src/architecture/Activation.o
+
+# target to build an object file
+src/architecture/Activation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_visualizer.dir/build.make CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o
+.PHONY : src/architecture/Activation.cpp.o
+
+src/architecture/Activation.i: src/architecture/Activation.cpp.i
+.PHONY : src/architecture/Activation.i
+
+# target to preprocess a source file
+src/architecture/Activation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_visualizer.dir/build.make CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.i
+.PHONY : src/architecture/Activation.cpp.i
+
+src/architecture/Activation.s: src/architecture/Activation.cpp.s
+.PHONY : src/architecture/Activation.s
+
+# target to generate assembly for a file
+src/architecture/Activation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_visualizer.dir/build.make CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.s
+.PHONY : src/architecture/Activation.cpp.s
+
 src/architecture/NeuralNetwork.o: src/architecture/NeuralNetwork.cpp.o
 .PHONY : src/architecture/NeuralNetwork.o
 
@@ -378,6 +402,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... neural_visualizer"
+	@echo "... src/architecture/Activation.o"
+	@echo "... src/architecture/Activation.i"
+	@echo "... src/architecture/Activation.s"
 	@echo "... src/architecture/NeuralNetwork.o"
 	@echo "... src/architecture/NeuralNetwork.i"
 	@echo "... src/architecture/NeuralNetwork.s"

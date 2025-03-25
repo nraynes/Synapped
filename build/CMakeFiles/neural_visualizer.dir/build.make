@@ -72,10 +72,24 @@ include CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/codegen:
 .PHONY : CMakeFiles/neural_visualizer.dir/codegen
 
+CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
+CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Activation.cpp
+CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Activation.cpp
+
+CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Activation.cpp > CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.i
+
+CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Activation.cpp -o CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.s
+
 CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/NeuralNetwork.cpp
 CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/NeuralNetwork.cpp
 
 CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.s: cmake_for
 CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Neuron.cpp
 CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Neuron.cpp
 
 CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Synapse.cpp
 CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/architecture/Synapse.cpp
 
 CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/MainWindow.cpp
 CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/MainWindow.cpp
 
 CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/neural_visualizer.dir/src/gui/MainWindow.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/NeuralCanvas.cpp
 CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/NeuralCanvas.cpp
 
 CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/main.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/main.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/main.cpp
 CMakeFiles/neural_visualizer.dir/src/main.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/neural_visualizer.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/neural_visualizer.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/main.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/main.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/main.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/main.cpp
 
 CMakeFiles/neural_visualizer.dir/src/main.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/neural_visualizer.dir/src/main.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/generateId.cpp
 CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/generateId.cpp
 
 CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/neural_visualizer.dir/src/utils/generateId.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/generateRandomNumber.cpp
 CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/generateRandomNumber.cpp
 
 CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.s: cmake_for
 CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/log.cpp
 CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/log.cpp
 
 CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.s: cmake_force
 CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: CMakeFiles/neural_visualizer.dir/flags.make
 CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/readCSV.cpp
 CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o: CMakeFiles/neural_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o -MF CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o.d -o CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o -c /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/readCSV.cpp
 
 CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.i: cmake_force
@@ -214,6 +228,7 @@ CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.s: cmake_force
 
 # Object files for target neural_visualizer
 neural_visualizer_OBJECTS = \
+"CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o" \
 "CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o" \
 "CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o" \
 "CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o" \
@@ -228,6 +243,7 @@ neural_visualizer_OBJECTS = \
 # External object files for target neural_visualizer
 neural_visualizer_EXTERNAL_OBJECTS =
 
+neural_visualizer: CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o
 neural_visualizer: CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o
 neural_visualizer: CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o
 neural_visualizer: CMakeFiles/neural_visualizer.dir/src/architecture/Synapse.cpp.o
@@ -240,7 +256,7 @@ neural_visualizer: CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o
 neural_visualizer: CMakeFiles/neural_visualizer.dir/src/utils/readCSV.cpp.o
 neural_visualizer: CMakeFiles/neural_visualizer.dir/build.make
 neural_visualizer: CMakeFiles/neural_visualizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable neural_visualizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable neural_visualizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neural_visualizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

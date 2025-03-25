@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ActivationType.hpp"
+#include "Activation.hpp"
 
 #include <vector>
 #include <memory>

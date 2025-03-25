@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o"
+  "CMakeFiles/neural_visualizer.dir/src/architecture/Activation.cpp.o.d"
   "CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o"
   "CMakeFiles/neural_visualizer.dir/src/architecture/NeuralNetwork.cpp.o.d"
   "CMakeFiles/neural_visualizer.dir/src/architecture/Neuron.cpp.o"
