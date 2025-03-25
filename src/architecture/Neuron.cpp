@@ -1,10 +1,11 @@
-#include "Neuron.h"
-#include "Synapse.h"
-#include "generateId.h"
+#include "Neuron.hpp"
+#include "Synapse.hpp"
+#include "generateId.hpp"
+#include "ActivationType.hpp"
 
 #include <vector>
 
-Neuron::Neuron(int type) : type(type), id(generateId()) {}
+Neuron::Neuron(ActivationType type) : type(type), id(generateId()) {}
 
 double Neuron::getStoredValue() {
     return this->storedValue;
@@ -49,22 +50,24 @@ void Neuron::calculateWeightedSum() {
 }
 
 double Neuron::activate(double x) {
-    if (this->type == 1) {
-        return this->sigmoid(x);
-    } else if (this->type == 2) {
-        return this->reLU(x);
-    } else {
-        return x;
+    switch (this->type) {
+        case ActivationType::SIGMOID:
+            return this->sigmoid(x);
+        case ActivationType::RELU:
+            return this->reLU(x);
+        default:
+            return x;
     }
 }
 
 double Neuron::dx_activate(double x) {
-    if (this->type == 1) {
-        return this->dx_sigmoid(x);
-    } else if (this->type == 2) {
-        return this->dx_reLU(x);
-    } else {
-        return 1;
+    switch (this->type) {
+        case ActivationType::SIGMOID:
+            return this->dx_sigmoid(x);
+        case ActivationType::RELU:
+            return this->dx_reLU(x);
+        default:
+            return 1;
     }
 }
 

@@ -1,6 +1,6 @@
 CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/gui/NeuralCanvas.cpp \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp \
   /opt/homebrew/Cellar/gtkmm3/3.24.9/include/gtkmm-3.0/gtkmm/drawingarea.h \
   /opt/homebrew/Cellar/glibmm@2.66/2.66.8/include/glibmm-2.4/glibmm/ustring.h \
   /opt/homebrew/Cellar/glibmm@2.66/2.66.8/lib/glibmm-2.4/include/glibmmconfig.h \
@@ -1813,5 +1813,5 @@ CMakeFiles/neural_visualizer.dir/src/gui/NeuralCanvas.cpp.o: \
   /opt/homebrew/Cellar/gtkmm3/3.24.9/include/gtkmm-3.0/gtkmm/stockid.h \
   /opt/homebrew/Cellar/gtkmm3/3.24.9/include/gtkmm-3.0/gtkmm/widgetpath.h \
   /opt/homebrew/Cellar/glibmm@2.66/2.66.8/include/giomm-2.4/giomm/actiongroup.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.h
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Neuron.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/Synapse.hpp

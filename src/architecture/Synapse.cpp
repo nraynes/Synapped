@@ -1,5 +1,5 @@
-#include "Synapse.h"
-#include "Neuron.h"
+#include "Synapse.hpp"
+#include "Neuron.hpp"
 
 #include <memory>
 

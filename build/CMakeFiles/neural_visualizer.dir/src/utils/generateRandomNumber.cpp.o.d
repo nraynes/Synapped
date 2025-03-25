@@ -1,6 +1,6 @@
 CMakeFiles/neural_visualizer.dir/src/utils/generateRandomNumber.cpp.o: \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/generateRandomNumber.cpp \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/generateRandomNumber.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/generateRandomNumber.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assertion_handler \

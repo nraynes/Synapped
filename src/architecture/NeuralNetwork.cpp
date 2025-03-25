@@ -1,8 +1,8 @@
-#include "NeuralNetwork.h"
-#include "Neuron.h"
-#include "Synapse.h"
-#include "log.h"
-#include "generateRandomNumber.h"
+#include "NeuralNetwork.hpp"
+#include "Neuron.hpp"
+#include "Synapse.hpp"
+#include "log.hpp"
+#include "generateRandomNumber.hpp"
 
 #include <iostream>
 #include <vector>

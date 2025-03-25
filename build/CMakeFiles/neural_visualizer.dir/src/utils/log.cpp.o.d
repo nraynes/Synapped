@@ -1,6 +1,6 @@
 CMakeFiles/neural_visualizer.dir/src/utils/log.cpp.o: \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/utils/log.cpp \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/comp.h \

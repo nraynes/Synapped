@@ -1,5 +1,5 @@
-#include "generateId.h"
-#include "generateRandomNumber.h"
+#include "generateId.hpp"
+#include "generateRandomNumber.hpp"
 
 #include <string>
 

@@ -1,6 +1,6 @@
 CMakeFiles/neural_visualizer.dir/src/main.cpp.o: \
   /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/src/main.cpp \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/architecture/NeuralNetwork.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -903,10 +903,10 @@ CMakeFiles/neural_visualizer.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/readCSV.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.h \
-  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.h \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/readCSV.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/utils/log.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/MainWindow.hpp \
+  /Users/nicholasraynes/Projects/Coding/Misc/cpp/NeuralVizualizer/include/gui/NeuralCanvas.hpp \
   /opt/homebrew/Cellar/gtkmm3/3.24.9/include/gtkmm-3.0/gtkmm/drawingarea.h \
   /opt/homebrew/Cellar/glibmm@2.66/2.66.8/include/glibmm-2.4/glibmm/ustring.h \
   /opt/homebrew/Cellar/glibmm@2.66/2.66.8/lib/glibmm-2.4/include/glibmmconfig.h \

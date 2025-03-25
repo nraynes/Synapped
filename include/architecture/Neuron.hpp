@@ -1,5 +1,7 @@
 #pragma once
 
+#include "ActivationType.hpp"
+
 #include <vector>
 #include <memory>
 
@@ -11,11 +13,11 @@ class Neuron {
         std::vector<std::shared_ptr<Synapse>> outputs;
         double weightedSum;
         double storedValue;
-        int type;
+        ActivationType type;
 
     public:
         std::string id;
-        Neuron(int type);
+        Neuron(ActivationType type);
 
         void addInput(std::shared_ptr<Synapse> input);
         void addOutput(std::shared_ptr<Synapse> output);

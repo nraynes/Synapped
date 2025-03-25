@@ -4,10 +4,11 @@
         "name": "Mac",
         "includePath": [
             "${workspaceFolder}/include",
-            "${workspaceFolder}/src",
             "${workspaceFolder}/include/architecture",
+            "${workspaceFolder}/include/enums",
             "${workspaceFolder}/include/gui",
             "${workspaceFolder}/include/utils",
+            "${workspaceFolder}/src",
             "${workspaceFolder}/src/architecture",
             "${workspaceFolder}/src/gui",
             "${workspaceFolder}/src/utils",

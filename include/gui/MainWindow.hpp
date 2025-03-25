@@ -1,6 +1,6 @@
 #pragma once
 
-#include "NeuralCanvas.h"
+#include "NeuralCanvas.hpp"
 
 #include <gtkmm/window.h>
 

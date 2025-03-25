@@ -1,7 +1,7 @@
-#include "NeuralNetwork.h"
-#include "readCSV.h"
-#include "log.h"
-#include "MainWindow.h"
+#include "NeuralNetwork.hpp"
+#include "readCSV.hpp"
+#include "log.hpp"
+#include "MainWindow.hpp"
 
 #include <vector>
 #include <memory>

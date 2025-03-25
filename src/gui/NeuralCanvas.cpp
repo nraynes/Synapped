@@ -1,6 +1,6 @@
-#include "NeuralCanvas.h"
-#include "Neuron.h"
-#include "Synapse.h"
+#include "NeuralCanvas.hpp"
+#include "Neuron.hpp"
+#include "Synapse.hpp"
 
 #include <gtkmm/drawingarea.h>
 #include <cairomm/context.h>
