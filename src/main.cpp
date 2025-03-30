@@ -1,16 +1,11 @@
 #include "NeuralNetwork.hpp"
 #include "readCSV.hpp"
 #include "log.hpp"
-#include "MainWindow.hpp"
 
 #include <vector>
 #include <memory>
-#include <gtkmm/application.h>
 
 int main() {
-    auto app = Gtk::Application::create("neuralnetwork");
-    MainWindow window;
-
     std::unique_ptr<NeuralNetwork> nn(new NeuralNetwork(7, 1, 10, 1));
     
     std::string file = "../Resources/sample_data.csv";
@@ -27,5 +22,5 @@ int main() {
     log("FINAL OUTPUT!");
     nn->displayAccuracy();
     
-    return app->run(window);
+    return 0;
 }

@@ -1,13 +1,10 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.16)
 project(NeuralVisualizer)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Find gtkmm
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(GTKMM REQUIRED gtkmm-3.0)
-
-link_directories(${GTKMM_LIBRARY_DIRS})
+find_package(ZBuild REQUIRED)
 
 # Source files
 file(GLOB_RECURSE SOURCES
@@ -15,10 +12,9 @@ file(GLOB_RECURSE SOURCES
 )
 
 # Add executable
-add_executable(neural_visualizer ${SOURCES})
+add_executable(NeuralVisualizer ${SOURCES})
 
-target_include_directories(neural_visualizer PRIVATE
-    ${GTKMM_INCLUDE_DIRS}
+target_include_directories(NeuralVisualizer PRIVATE
     ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/include/architecture
     ${PROJECT_SOURCE_DIR}/include/gui
@@ -30,7 +26,4 @@ target_include_directories(neural_visualizer PRIVATE
 )
 
 # Link libraries
-target_link_libraries(neural_visualizer ${GTKMM_LIBRARIES})
-
-# Optional: remove annoying warnings from pkg-config
-add_definitions(${GTKMM_CFLAGS_OTHER})
+target_link_libraries(NeuralVisualizer PRIVATE ZBuild::ZBuild)
