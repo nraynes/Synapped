@@ -94,4 +94,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the LGPL License. See the `LICENSE` file for more details.
