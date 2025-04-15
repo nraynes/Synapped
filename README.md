@@ -1,6 +1,6 @@
-# NeuralVisualizer
+# Synapped
 
-**NeuralVisualizer** is a C++ application designed to provide a graphical representation of neural network architectures and their training processes. Utilizing the GTKmm library for the graphical interface, this tool offers an intuitive visualization of neural networks in action.
+**Synapped** is a C++ application designed to provide a graphical representation of neural network architectures and their training processes. Utilizing the GTKmm library for the graphical interface, this tool offers an intuitive visualization of neural networks in action.
 
 ---
 
@@ -15,7 +15,7 @@
 ## 📁 Project Structure
 
 ```
-NeuralVisualizer/
+Synapped/
 ├── .vscode/                 # VSCode configuration files
 ├── build/                   # Directory for build outputs
 ├── include/                 # Header files
@@ -59,8 +59,8 @@ sudo apt-get install libgtkmm-3.0-dev
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/nraynes/NeuralVisualizer.git
-cd NeuralVisualizer
+git clone https://github.com/nraynes/Synapped.git
+cd Synapped
 ```
 
 ### 3. Build the Project
