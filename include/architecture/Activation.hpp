@@ -5,7 +5,8 @@
 enum class ActivationType {
     NONE,
     SIGMOID,
-    RELU
+    RELU,
+    TANH
 };
 
 class Activation {
@@ -16,8 +17,11 @@ class Activation {
         // Activation Functions
         static double sigmoid(double x);
         static double reLU(double x);
+        static double tanh(double x);
+        
 
         // Activation Derivatives
         static double dx_sigmoid(double x);
         static double dx_reLU(double x);
+        static double dx_tanh(double x);
 };

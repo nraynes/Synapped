@@ -6,6 +6,8 @@ double Activation::activate(ActivationType& type, double x) {
             return Activation::sigmoid(x);
         case ActivationType::RELU:
             return Activation::reLU(x);
+        case ActivationType::TANH:
+            return Activation::tanh(x);
         default:
             return x;
     }
@@ -17,6 +19,8 @@ double Activation::dx_activate(ActivationType& type, double x) {
             return Activation::dx_sigmoid(x);
         case ActivationType::RELU:
             return Activation::dx_reLU(x);
+        case ActivationType::TANH:
+            return Activation::dx_tanh(x);
         default:
             return 1;
     }
@@ -37,4 +41,13 @@ double Activation::reLU(double x) {
 
 double Activation::dx_reLU(double x) {
     return x > 0 ? 1.0 : 0.0;
+}
+
+double Activation::tanh(double x) {
+    return std::tanh(x);
+}
+
+double Activation::dx_tanh(double x) {
+    double tanh_x = std::tanh(x);
+    return 1.0 - tanh_x * tanh_x;
 }

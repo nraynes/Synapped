@@ -10,7 +10,7 @@
 #include <memory>
 
 NeuralNetwork::NeuralNetwork(int num_inputs, int num_layers, int num_neurons_per_layer, int num_outputs) {
-    this->initialize_layer(num_inputs, ActivationType::RELU);
+    this->initialize_layer(num_inputs, ActivationType::NONE);
     for (int i=0; i < num_layers; i++) {
         this->initialize_layer(num_neurons_per_layer, ActivationType::RELU);
     }
